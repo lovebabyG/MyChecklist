@@ -45,6 +45,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="chE-I7-c8h">
                             <connections>
                                 <action selector="addItem" destination="jg1-O7-QNs" id="Q3p-Tq-jfl"/>
+                                <segue destination="AzM-5R-bdz" kind="show" id="6T0-Qw-ji6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -52,6 +53,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2YQ-k2-c34" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1020" y="6.3380281690140849"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="eB5-iC-bzi">
+            <objects>
+                <tableViewController id="AzM-5R-bdz" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sQ1-S9-6M6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kyv-22-wCf">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kyv-22-wCf" id="41k-Dl-Ok9">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AzM-5R-bdz" id="cXW-Rr-jFO"/>
+                            <outlet property="delegate" destination="AzM-5R-bdz" id="PXB-aB-xN6"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Elm-Ac-1fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="6"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RGu-A6-w6a">
