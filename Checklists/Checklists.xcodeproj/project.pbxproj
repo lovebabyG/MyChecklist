@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD17E99A1FB1E03100D938F5 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17E9991FB1E03100D938F5 /* ChecklistItem.swift */; };
-		CDFCAA781FB2E85900D131DF /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCAA771FB2E85900D131DF /* AddItemViewController.swift */; };
+		CDFCAA781FB2E85900D131DF /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCAA771FB2E85900D131DF /* ItemDetailViewController.swift */; };
 		CDFED4891FB0576100EC26B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFED4881FB0576100EC26B7 /* AppDelegate.swift */; };
 		CDFED48B1FB0576100EC26B7 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */; };
 		CDFED48E1FB0576100EC26B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFED48C1FB0576100EC26B7 /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 
 /* Begin PBXFileReference section */
 		CD17E9991FB1E03100D938F5 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
-		CDFCAA771FB2E85900D131DF /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		CDFCAA771FB2E85900D131DF /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CDFED4851FB0576100EC26B7 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFED4881FB0576100EC26B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CheckListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CDFED48D1FB0576100EC26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFED48F1FB0576100EC26B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFED4921FB0576100EC26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		CDFED4871FB0576100EC26B7 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
-				CDFCAA771FB2E85900D131DF /* AddItemViewController.swift */,
+				CDFCAA771FB2E85900D131DF /* ItemDetailViewController.swift */,
 				CDFED4881FB0576100EC26B7 /* AppDelegate.swift */,
 				CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */,
 				CDFED48C1FB0576100EC26B7 /* Main.storyboard */,
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFED48B1FB0576100EC26B7 /* CheckListViewController.swift in Sources */,
-				CDFCAA781FB2E85900D131DF /* AddItemViewController.swift in Sources */,
+				CDFCAA781FB2E85900D131DF /* ItemDetailViewController.swift in Sources */,
 				CD17E99A1FB1E03100D938F5 /* ChecklistItem.swift in Sources */,
 				CDFED4891FB0576100EC26B7 /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Checklists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.tutorial.Checklists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Checklists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.tutorial.Checklists;
 				PRODUCT_NAME = "$(TARGET_NAME)";
