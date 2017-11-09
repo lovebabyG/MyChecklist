@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CD17E99A1FB1E03100D938F5 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17E9991FB1E03100D938F5 /* ChecklistItem.swift */; };
+		CD788CE51FB476EF00372D21 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD788CE41FB476EF00372D21 /* Checklist.swift */; };
 		CDFCAA781FB2E85900D131DF /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCAA771FB2E85900D131DF /* ItemDetailViewController.swift */; };
+		CDFD96961FB45B6800E29350 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD96951FB45B6800E29350 /* AllListsViewController.swift */; };
 		CDFED4891FB0576100EC26B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFED4881FB0576100EC26B7 /* AppDelegate.swift */; };
 		CDFED48B1FB0576100EC26B7 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */; };
 		CDFED48E1FB0576100EC26B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFED48C1FB0576100EC26B7 /* Main.storyboard */; };
@@ -18,7 +20,9 @@
 
 /* Begin PBXFileReference section */
 		CD17E9991FB1E03100D938F5 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		CD788CE41FB476EF00372D21 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		CDFCAA771FB2E85900D131DF /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CDFD96951FB45B6800E29350 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
 		CDFED4851FB0576100EC26B7 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFED4881FB0576100EC26B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFED48A1FB0576100EC26B7 /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CheckListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -66,6 +70,8 @@
 				CDFED4911FB0576100EC26B7 /* LaunchScreen.storyboard */,
 				CDFED4941FB0576100EC26B7 /* Info.plist */,
 				CD17E9991FB1E03100D938F5 /* ChecklistItem.swift */,
+				CDFD96951FB45B6800E29350 /* AllListsViewController.swift */,
+				CD788CE41FB476EF00372D21 /* Checklist.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			files = (
 				CDFED48B1FB0576100EC26B7 /* CheckListViewController.swift in Sources */,
 				CDFCAA781FB2E85900D131DF /* ItemDetailViewController.swift in Sources */,
+				CD788CE51FB476EF00372D21 /* Checklist.swift in Sources */,
 				CD17E99A1FB1E03100D938F5 /* ChecklistItem.swift in Sources */,
+				CDFD96961FB45B6800E29350 /* AllListsViewController.swift in Sources */,
 				CDFED4891FB0576100EC26B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
