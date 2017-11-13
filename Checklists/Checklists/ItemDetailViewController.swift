@@ -23,6 +23,9 @@ class ItemDetailViewController: UITableViewController,
                              UITextFieldDelegate
 {
     
+    
+    @IBOutlet weak var shouldRemindSwitch: UISwitch!
+    
     @IBAction func cancel() {
         delegate?.itemDetailViewControllerDidCancel(self)
     }
