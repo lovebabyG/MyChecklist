@@ -14,16 +14,6 @@
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            scope = "0"
-            stopOnStyle = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
@@ -46,7 +36,7 @@
                   moduleName = "Checklists"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yijia_gong/workspace/IOSProject/MyChecklist/Checklists/Checklists/Checklist.swift"
-                  timestampString = "532242762.627983"
+                  timestampString = "532330366.768199"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -57,16 +47,16 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Checklists.Checklist.init () -&gt; Checklists.Checklist"
+                  symbolName = "Checklists.Checklist.__allocating_init () -&gt; Checklists.Checklist"
                   moduleName = "Checklists"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yijia_gong/workspace/IOSProject/MyChecklist/Checklists/Checklists/Checklist.swift"
-                  timestampString = "532242762.630154"
+                  timestampString = "532330366.77439"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "12">
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
                </Location>
             </Locations>
          </BreakpointContent>
